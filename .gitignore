@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Uncomment these if you use the GitHub Actions workflow (Option B in README)
+# chapters/
+# index.html
+# assets/search-index.json

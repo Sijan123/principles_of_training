@@ -1,0 +1,60 @@
+# Optional: build the book from content/ and publish to GitHub Pages.
+# Use this only if you prefer NOT to commit the generated chapters/ and index.html.
+# Enable with: Settings -> Pages -> Source: GitHub Actions
+# If you'd rather just commit the generated files, delete this file and pick
+# "Deploy from a branch" instead.
+
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build the book
+        run: node build.mjs
+
+      - name: Fail if any chapter is still a stub
+        run: |
+          if grep -rl "In preparation" chapters/ > /dev/null 2>&1; then
+            echo "::error::Some chapters have no content in content/ — build produced stubs:"
+            grep -rl "In preparation" chapters/
+            exit 1
+          fi
+          echo "All chapters have content."
+
+      - name: Disable Jekyll processing
+        run: touch .nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
