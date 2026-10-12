@@ -13,7 +13,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23B4332E'/%3E%3Cpath d='M9 22V10h3.4l3.6 7 3.6-7H23v12h-3v-6.6l-2.6 5h-2.8l-2.6-5V22z' fill='%23FBF8F3'/%3E%3C/svg%3E">
 <script>(function(){try{var t=localStorage.getItem('sot-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
-<body class="">
+<body class="" data-chapter="ch03">
 <a class="skip" href="#main">Skip to content</a>
 <div class="progress" id="progress"></div>
 <header class="topbar">
@@ -106,6 +106,7 @@
       <li><a href="../chapters/ch42-rehabilitation-and-return-to-running.html"><span class="n">42</span><span class="t">Rehabilitation &amp; Return to Running</span></a></li>
       <li><a href="../chapters/ch43-case-study-iliotibial-band-syndrome.html"><span class="n">43</span><span class="t">Case Study — Iliotibial Band Syndrome</span></a></li>
       <li><a href="../chapters/ch44-indoor-cycling-the-workout-library.html"><span class="n">44</span><span class="t">Indoor Cycling — The Workout Library</span></a></li>
+      <li><a href="../chapters/ch45-isometrics-for-runners.html"><span class="n">45</span><span class="t">Isometrics for Runners</span></a></li>
     </ul>
   </div>
   <div class="nav-part" data-hue="slate">
@@ -131,12 +132,13 @@
       </div>
     </div>
     <div class="opener__lede"><p class="lede dropcap">Lay a soleus and a sartorius side by side and you would struggle to believe they are the same kind of tissue. One is a short, dense, almost woody slab buried under the calf; the other is a long, thin ribbon that spirals across the entire thigh. Both are skeletal muscle, built from the same contractile protein, activated by the same kind of nerve signal. The difference between them &mdash; and the difference between a sprinter's hamstring and a marathoner's &mdash; is almost entirely a matter of <strong>architecture</strong>: how the fibres inside are arranged, how long they run, and at what angle they pull. Shape is not decoration. Shape is a trade-off, deliberately made, between force and speed.</p></div>
+    
   </div>
 </header>
 <div class="wrap">
 <div class="minitoc">
   <h4>In this chapter</h4>
-  <ol><li value="1"><a href="#nested-tube">The Nested Tube</a></li><li value="2"><a href="#fascicle-arrangement">Parallel or Pennate: The One Design Decision</a></li><li value="3"><a href="#pcsa">What Actually Predicts Force: PCSA, Not Length or Volume</a></li><li value="4"><a href="#motor-and-spring">Motor and Spring, Wired in Series</a></li><li value="5"><a href="#architecture-and-training">Architecture Changes With Training &amp;mdash; Two Different Knobs</a></li><li value="6"><a href="#reading-shape">Reading a Muscle's Job From Its Shape</a></li></ol>
+  <ol><li value="1"><a href="#nested-tube">The Nested Tube</a></li><li value="2"><a href="#fascicle-arrangement">Parallel or Pennate: The One Design Decision</a></li><li value="3"><a href="#pcsa">What Actually Predicts Force: PCSA, Not Length or Volume</a></li><li value="4"><a href="#motor-and-spring">Motor and Spring, Wired in Series</a></li><li value="5"><a href="#architecture-and-training">Architecture Changes With Training — Two Different Knobs</a></li><li value="6"><a href="#reading-shape">Reading a Muscle's Job From Its Shape</a></li></ol>
 </div>
 
 
@@ -158,7 +160,7 @@
 
 <p>In a <strong>parallel</strong> (or <strong>fusiform</strong>) muscle, fascicles run roughly along the muscle's whole length, parallel to its line of pull, like the sartorius or the biceps brachii. In a <strong>pennate</strong> muscle &mdash; from the Latin <em>penna</em>, feather &mdash; fascicles run at an angle to the line of pull, inserting into a central tendon the way the barbs of a feather insert into its shaft. The angle between the fascicle and the tendon's line of pull is the <strong>pennation angle</strong>. A muscle can be <strong>unipennate</strong> (feather barbs on one side only, like much of the tibialis posterior), <strong>bipennate</strong> (barbs on both sides of a central tendon, like the rectus femoris), or <strong>multipennate</strong> (several tendon sheets converging from different directions, like the deltoid, which lets it pull a limb in three different directions from one muscle belly).</p>
 
-<figure class="fig">
+<figure data-fig="0" class="fig">
   <div class="fig__frame">
     <svg viewBox="0 0 640 300" role="img" aria-label="Diagram comparing a parallel-fibred muscle and a pennate muscle of equal volume, showing how pennation packs more fibres into a cross-section at the cost of fibre length">
       <text class="svg-title" x="8" y="16">SAME VOLUME, TWO DESIGNS</text>
@@ -290,7 +292,7 @@
 <tr><td><strong>Rectus femoris</strong></td><td>Bipennate, crosses hip and knee</td><td>Combines moderate force with the reach needed to act at two joints at once</td></tr>
 </tbody></table></div>
 
-<div class="widget" data-widget="body-map">
+<div data-fig="1" class="widget" data-widget="body-map">
   <div class="widget__head"><h4>The body map</h4><span class="tag">Interactive</span></div>
   <div class="widget__note">Click a muscle front or back to see its architecture type, approximate PCSA and fascicle length, and the movement it is built to produce. Modelled on cadaver and ultrasound architecture datasets such as Wickiewicz et al. (below).</div>
 </div>
@@ -340,5 +342,7 @@
 <script src="../assets/figures.js"></script>
 <script src="../assets/cycling.js"></script>
 <script src="../assets/widgets.js"></script>
+<script src="../assets/audio-data.js"></script>
+<script src="../assets/audio.js"></script>
 </body>
 </html>

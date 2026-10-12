@@ -307,7 +307,64 @@
       hl: ['glute'],
       kf: [{ t: 0, p: pose({ x: 150, y: 420, trunk: 88, hipN: 92, kneeN: 6, hipF: 92, kneeF: 6, shN: 150, elN: 20, shF: 60, elF: 60, head: 86 }) },
            { t: .5, p: pose({ x: 150, y: 420, trunk: 88, hipN: 118, kneeN: 4, hipF: 92, kneeF: 6, shN: 150, elN: 20, shF: 60, elF: 60, head: 86 }) },
-           { t: 1, p: pose({ x: 150, y: 420, trunk: 88, hipN: 92, kneeN: 6, hipF: 92, kneeF: 6, shN: 150, elN: 20, shF: 60, elF: 60, head: 86 }) }] }
+           { t: 1, p: pose({ x: 150, y: 420, trunk: 88, hipN: 92, kneeN: 6, hipF: 92, kneeF: 6, shN: 150, elN: 20, shF: 60, elF: 60, head: 86 }) }] },
+
+    /* ---- isometrics for runners (holds at running-stance angles) ---- */
+    isoSoleus: { n: 'Bent-knee calf hold (soleus)', cat: 'iso', target: '4–5 × 30–45 s each leg, or 5 × 5 s max', view: 'side', prop: 'step',
+      why: 'Bending the knee slackens the gastrocnemius and leaves the soleus to do the work. The soleus carries much of the load through the Achilles in running stance, so holding it hard builds tendon and muscle capacity without the stretch–shortening cycle.',
+      cues: ['Ball of the foot on the step, heel at mid-range', 'Knee bent about 20–30° and kept there', 'Push hard into the step; stay tall', 'Hold a wall lightly for balance only'],
+      hl: ['calf', 'achilles'],
+      kf: [{ t: 0, p: pose({ x: 150, y: 290.1, trunk: 0, head: 0, hipN: 22, kneeN: 28, ankN: -166, hipF: -28, kneeF: 85, ankF: 0, shN: 40, elN: 50, shF: 40, elF: 50 }) },
+           { t: 0.5, p: pose({ x: 150, y: 290, trunk: 1, head: 1, hipN: 20.5, kneeN: 30, ankN: -169.5, hipF: -28, kneeF: 85, ankF: 0, shN: 42, elN: 50, shF: 42, elF: 50 }) },
+           { t: 1, p: pose({ x: 150, y: 290.1, trunk: 0, head: 0, hipN: 22, kneeN: 28, ankN: -166, hipF: -28, kneeF: 85, ankF: 0, shN: 40, elN: 50, shF: 40, elF: 50 }) }] },
+
+    isoGastroc: { n: 'Straight-knee calf hold', cat: 'iso', target: '4–5 × 30–45 s each leg', view: 'side', prop: 'step',
+      why: 'With the knee straight the gastrocnemius is lengthened across the knee and does most of the plantarflexion work, alongside the soleus. It pairs with the bent-knee hold to cover both calf muscles that load the Achilles every stride.',
+      cues: ['Knee locked straight but not hyper-extended', 'Heel at mid-range, level with the step', 'Hold at a hard, steady effort', 'Keep the weight over the ball of the foot'],
+      hl: ['calf', 'achilles'],
+      kf: [{ t: 0, p: pose({ x: 150, y: 283.4, trunk: 0, head: 0, hipN: 0, kneeN: 3, ankN: -163, hipF: -28, kneeF: 85, ankF: 0, shN: 40, elN: 50, shF: 40, elF: 50 }) },
+           { t: 0.5, p: pose({ x: 150, y: 283.4, trunk: 1, head: 1, hipN: 1, kneeN: 4, ankN: -163, hipF: -28, kneeF: 85, ankF: 0, shN: 42, elN: 50, shF: 42, elF: 50 }) },
+           { t: 1, p: pose({ x: 150, y: 283.4, trunk: 0, head: 0, hipN: 0, kneeN: 3, ankN: -163, hipF: -28, kneeF: 85, ankF: 0, shN: 40, elN: 50, shF: 40, elF: 50 }) }] },
+
+    isoSplit: { n: 'Split-squat hold', cat: 'iso', target: '3–4 × 30–45 s each leg', view: 'side',
+      why: 'A static hold at roughly the knee angle of mid-stance, loading the quadriceps and gluteus maximus on one leg. It trains the knee and hip to resist collapse in the single-leg position where running spends all its ground time.',
+      cues: ['Front knee about 45°, shin near vertical', 'Torso upright, pelvis level', 'Back knee hovers off the floor', 'Weight through the whole front foot'],
+      hl: ['quad', 'glute'],
+      kf: [{ t: 0, p: pose({ x: 125, y: 340, trunk: 2, head: 2, hipN: 37, kneeN: 45, ankN: -188, hipF: -28, kneeF: 19.5, ankF: -182.5, shN: 6, elN: 6, shF: 6, elF: 6 }) },
+           { t: 0.5, p: pose({ x: 125, y: 339.5, trunk: 1, head: 1, hipN: 35.5, kneeN: 47, ankN: -191.5, hipF: -29, kneeF: 17.5, ankF: -181.5, shN: 6, elN: 6, shF: 6, elF: 6 }) },
+           { t: 1, p: pose({ x: 125, y: 340, trunk: 2, head: 2, hipN: 37, kneeN: 45, ankN: -188, hipF: -28, kneeF: 19.5, ankF: -182.5, shN: 6, elN: 6, shF: 6, elF: 6 }) }] },
+
+    isoSpanish: { n: 'Spanish squat hold', cat: 'iso', target: '5 × 45 s', view: 'side', prop: 'band',
+      why: 'The band pulls the knees forward, so you sit back against it with the shins vertical and the quadriceps carry the load with little help from the hips. It is a low-impact way to load the quadriceps and patellar tendon in a knee-bent position.',
+      cues: ['Band behind the knees, anchored in front at knee height', 'Shins vertical, knees about 70°', 'Sit back; torso upright', 'Steady, hard effort for the full hold'],
+      hl: ['quad'],
+      kf: [{ t: 0, p: pose({ x: 100, y: 379.4, trunk: 0, head: 0, hipN: 70, kneeN: 70, ankN: -180, hipF: 70, kneeF: 70, ankF: -180, shN: 62, elN: 20, shF: 62, elF: 20 }) },
+           { t: 0.5, p: pose({ x: 100, y: 377.2, trunk: 1, head: 1, hipN: 68.5, kneeN: 68.5, ankN: -180, hipF: 68.5, kneeF: 68.5, ankF: -180, shN: 64, elN: 20, shF: 64, elF: 20 }) },
+           { t: 1, p: pose({ x: 100, y: 379.4, trunk: 0, head: 0, hipN: 70, kneeN: 70, ankN: -180, hipF: 70, kneeF: 70, ankF: -180, shN: 62, elN: 20, shF: 62, elF: 20 }) }] },
+
+    isoBridge1: { n: 'Single-leg glute bridge hold', cat: 'iso', target: '3–4 × 30 s each side', view: 'side', vb: [-20, 20, 350, 500],
+      why: 'Holding the hips high on one foot loads the gluteus maximus and hamstrings in hip extension, the position of push-off in running. The free leg stays out so the pelvis has to stay level without help from the other side.',
+      cues: ['One foot planted, heel under the knee', 'Free leg straight, in line with the thigh', 'Hips high and level, ribs down', 'Squeeze the glute; do not arch the back'],
+      hl: ['glute', 'ham'],
+      kf: [{ t: 0, p: pose({ x: 140, y: 444.7, trunk: -106.8, head: -112.8, hipN: 110, kneeN: 90, ankN: -160, hipF: 124, kneeF: 1, ankF: -117, shN: 83, elN: 0, shF: 83, elF: 0 }) },
+           { t: 0.5, p: pose({ x: 140, y: 441.1, trunk: -108.7, head: -114.7, hipN: 108.5, kneeN: 91.5, ankN: -163, hipF: 121, kneeF: 1, ankF: -118.5, shN: 83, elN: 0, shF: 83, elF: 0 }) },
+           { t: 1, p: pose({ x: 140, y: 444.7, trunk: -106.8, head: -112.8, hipN: 110, kneeN: 90, ankN: -160, hipF: 124, kneeF: 1, ankF: -117, shN: 83, elN: 0, shF: 83, elF: 0 }) }] },
+
+    isoHamBridge: { n: 'Long-lever hamstring bridge hold', cat: 'iso', target: '3–4 × 20–30 s', view: 'side', prop: 'box', vb: [0, 20, 380, 500],
+      why: 'With the heels on a box and the knees only slightly bent, the hamstrings work against a long lever and hold the hips up. This resembles their job in late swing and early stance, where hamstring strains happen.',
+      cues: ['Heels on the box, knees only slightly bent (about 15–25°)', 'Lift the hips until the body is one line', 'Press the heels down into the box', 'Stop the set if the hips sag'],
+      hl: ['ham', 'glute'],
+      kf: [{ t: 0, p: pose({ x: 160, y: 440, trunk: -109.3, head: -115.3, hipN: 105, kneeN: 20, ankN: -177, hipF: 105, kneeF: 20, ankF: -177, shN: 83, elN: 0, shF: 83, elF: 0 }) },
+           { t: 0.5, p: pose({ x: 160, y: 433.4, trunk: -112.9, head: -118.9, hipN: 103.5, kneeN: 21.5, ankN: -180, hipF: 103.5, kneeF: 21.5, ankF: -180, shN: 83, elN: 0, shF: 83, elF: 0 }) },
+           { t: 1, p: pose({ x: 160, y: 440, trunk: -109.3, head: -115.3, hipN: 105, kneeN: 20, ankN: -177, hipF: 105, kneeF: 20, ankF: -177, shN: 83, elN: 0, shF: 83, elF: 0 }) }] },
+
+    isoWallDrive: { n: 'A-stance wall drive (overcoming)', cat: 'iso', target: '5 × 5 s maximal push each leg', view: 'side', prop: 'wall', vb: [0, 20, 380, 500],
+      why: 'Pushing as hard as you can against the wall with the body in a straight diagonal line is an overcoming isometric: the position does not change, but the effort is maximal. It loads the stance-leg glute and calf in the forward-lean push-off posture of acceleration, and the driven swing knee works the hip flexors.',
+      cues: ['Hands on the wall, body straight at about 45°', 'Stance leg long, pushing the floor back', 'Swing knee up to hip height, foot under the knee', 'Push maximally for 5 s, then rest fully'],
+      hl: ['glute', 'hipflex', 'calf'],
+      kf: [{ t: 0, p: pose({ x: 140, y: 357.7, trunk: 45, head: 46, hipN: -45, kneeN: 1, ankN: -191, hipF: 90, kneeF: 90, ankF: -180, shN: 82, elN: 0, shF: 82, elF: 0 }) },
+           { t: 0.5, p: pose({ x: 140, y: 357.7, trunk: 45, head: 46, hipN: -45, kneeN: 1, ankN: -191, hipF: 87, kneeF: 93, ankF: -186, shN: 82, elN: 0, shF: 82, elF: 0 }) },
+           { t: 1, p: pose({ x: 140, y: 357.7, trunk: 45, head: 46, hipN: -45, kneeN: 1, ankN: -191, hipF: 90, kneeF: 90, ankF: -180, shN: 82, elN: 0, shF: 82, elF: 0 }) }] }
   };
 
   var ROUTINES = {
@@ -328,8 +385,37 @@
       list: ['hipThrust', 'stepUp', 'rdl', 'sideLie', 'gluteBridge', 'birdDog'] },
     tendon: { l: 'Tendon rehab — Achilles', mins: '15 min, daily to alternate days',
       note: 'Stage by irritability: isometrics when angry, heavy slow resistance when settled, then add elastic work before returning to running. Progress on next-morning pain, never on how it feels during.',
-      list: ['isoCalf', 'hsr', 'calfRaise', 'pogo', 'calfStretch'] }
+      list: ['isoCalf', 'hsr', 'calfRaise', 'pogo', 'calfStretch'] },
+    iso: { l: 'Isometrics for runners', mins: '15–20 min, 2–3×/week',
+      note: 'Holds at the angles of running stance, near-maximal effort, long rests. After easy runs or on hard-run days, never the day before a race.',
+      list: ['isoSoleus', 'isoGastroc', 'isoSplit', 'isoSpanish', 'isoBridge1', 'isoHamBridge', 'isoWallDrive'] }
   };
+
+  /* ---------- props for a drill: step, box, wall, resistance band ---------- */
+  // Drawn from the figure's own joint positions so they stay attached to it.
+  function drawProp(kind, k, vb) {
+    var st = 'style="fill:var(--rule);stroke:var(--rule-2);stroke-width:1.5"';
+    var f = function (n) { return n.toFixed(1); };
+    if (kind === 'step') {           // forefoot on the edge of a step, heel free behind it
+      var top = Math.max(k.footN[1], k.legN.e[1]) + 5;
+      var x1 = Math.min(k.footN[0], k.legN.e[0]) + 8;
+      return '<rect x="' + f(x1) + '" y="' + f(top) + '" width="' + f(Math.max(40, 230 - x1)) + '" height="' + f(500 - top) + '" rx="2" ' + st + '/>';
+    }
+    if (kind === 'box') {            // heels resting on a box or bench
+      var by = Math.max(k.legN.e[1], k.footN[1]) + 7, bx = k.legN.e[0] - 26;
+      return '<rect x="' + f(bx) + '" y="' + f(by) + '" width="64" height="' + f(500 - by) + '" rx="3" ' + st + '/>';
+    }
+    if (kind === 'wall') {           // hands pressed into a wall
+      var wx = Math.max(k.armN.e[0], k.armF.e[0]) + 7;
+      return '<rect x="' + f(wx) + '" y="' + f(vb[1] + 10) + '" width="12" height="' + f(490 - vb[1]) + '" ' + st + '/>';
+    }
+    if (kind === 'band') {           // band behind the knees, anchored in front
+      var kx = Math.max(k.legN.j[0], k.legF.j[0]), ky = k.legN.j[1];
+      return '<line x1="' + f(kx) + '" y1="' + f(ky) + '" x2="' + f(vb[0] + vb[2] - 24) + '" y2="' + f(ky) + '" style="stroke:' + D(3) + ';stroke-width:4;stroke-linecap:round"/>' +
+        '<rect x="' + f(vb[0] + vb[2] - 26) + '" y="' + f(ky - 14) + '" width="10" height="' + f(500 - ky + 14) + '" ' + st + '/>';
+    }
+    return '';
+  }
 
   /* ---------- widget: animated drill player ---------- */
   function drillPlayer(el) {
@@ -354,7 +440,9 @@
     function layout() { $('#dp-main', el).style.gridTemplateColumns = mq.matches ? '.82fr 1fr' : 'minmax(0,1fr)'; }
     layout(); if (mq.addEventListener) mq.addEventListener('change', layout);
 
-    var routine = keys[0], idx = 0, t = 0, playing = true, raf = null;
+    // a widget can open on a chosen routine: <div data-widget="drill-player" data-routine="iso">
+    var routine = ROUTINES[el.dataset.routine] ? el.dataset.routine : keys[0], idx = 0, t = 0, playing = true, raf = null;
+    $$('#dp-r button', el).forEach(function (x) { x.setAttribute('aria-pressed', String(x.dataset.v === routine)); });
 
     function cur() { return DRILL[ROUTINES[routine].list[idx]]; }
 
@@ -371,16 +459,17 @@
     function render() {
       var d = cur();
       var p = interpPose(d, t);
-      var inner = '<rect x="0" y="0" width="300" height="560" fill="none"/>' +
-        '<line x1="14" y1="500" x2="286" y2="500" style="stroke:var(--rule-2);stroke-width:1.5"/>';
+      var vb = d.vb || [0, 20, 300, 500], fx0 = vb[0] + 14, fw = vb[2] - 28;
+      var inner = '<line x1="' + fx0 + '" y1="500" x2="' + (fx0 + fw) + '" y2="500" style="stroke:var(--rule-2);stroke-width:1.5"/>';
       // floor shading
-      inner += '<rect x="14" y="500" width="272" height="10" style="fill:var(--rule);opacity:.5"/>';
+      inner += '<rect x="' + fx0 + '" y="500" width="' + fw + '" height="10" style="fill:var(--rule);opacity:.5"/>';
+      if (d.prop) inner += drawProp(d.prop, fk(p), vb);
       inner += drawFigure(p, { highlight: d.hl });
-      $('#dp-svg', el).innerHTML = '<svg viewBox="0 20 300 500" style="width:100%;height:auto;max-height:46vh" role="img" aria-label="' + d.n + '">' + inner + '</svg>';
+      $('#dp-svg', el).innerHTML = '<svg viewBox="' + vb.join(' ') + '" style="width:100%;height:auto;max-height:46vh" role="img" aria-label="' + d.n + '">' + inner + '</svg>';
     }
     function info() {
       var d = cur(), R = ROUTINES[routine];
-      var catCol = { raise: 2, mobilise: 1, activate: 4, potentiate: 3, strength: 5, stretch: 6, rehab: 7 }[d.cat] || 8;
+      var catCol = { raise: 2, mobilise: 1, activate: 4, potentiate: 3, strength: 5, stretch: 6, rehab: 7, iso: 8 }[d.cat] || 8;
       $('#dp-info', el).innerHTML =
         '<div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.45rem">' +
         '<span class="tag" style="background:color-mix(in srgb,' + D(catCol) + ' 16%,transparent);border-color:' + D(catCol) + ';color:' + D(catCol) + '">' + d.cat + '</span>' +

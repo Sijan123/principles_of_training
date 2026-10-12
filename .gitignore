@@ -1,8 +1,49 @@
+# ---- dependencies / environments
 node_modules/
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- audiobook pipeline: intermediate files (only audio/*.mp3 + manifest ship)
+audio/.cache/
+audio/script/
+*.wav
+
+# ---- secrets
+.env
+.env.*
+
+# ---- logs and scratch
+*.log
+npm-debug.log*
+tmp/
+temp/
+*.tmp
+*.bak
+*~
+
+# ---- stray files
+detail.py
+
+# ---- editors and OS
+.vscode/
+.idea/
+*.swp
 .DS_Store
 Thumbs.db
+desktop.ini
+~$*
 
-# Uncomment these if you use the GitHub Actions workflow (Option B in README)
+# ---- Claude Code local state
+.claude/settings.local.json
+
+# Pages deploys from the branch, so chapters/, index.html and
+# assets/search-index.json are generated but MUST stay committed.
+# Uncomment only if you switch to the GitHub Actions workflow (README, Option B):
 # chapters/
 # index.html
 # assets/search-index.json

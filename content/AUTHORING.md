@@ -169,6 +169,21 @@ Helper classes: `.svg-axis .svg-grid .svg-tick .svg-lbl .svg-lbl--b .svg-title .
 ```
 Number figures `<b>Fig CH.N</b>` with the chapter number.
 
+### Figure narration (audiobook) — required for every figure and widget
+
+Directly after each `</figure>` and each widget's closing `</div>`, add the spoken explanation
+the audiobook plays (and that "Hear this figure explained" plays on its own):
+
+```html
+<template class="narrate">This chart plots X across the bottom against Y up the side. … The point: …</template>
+```
+
+Plain text, 60–130 words: say what is plotted, walk the eye to what matters using the figure's
+real numbers, land the takeaway. Write for the ear: units and symbols in words ("percent",
+"8 to 10 seconds", "about"), no parentheses or arrows, no "as you can see". Don't open with the
+figure number; the narrator says it. For a widget, describe its default view and what its main
+control changes. The build strips the template from the page.
+
 ### Interactive widgets — drop in by name
 
 ```html

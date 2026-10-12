@@ -1,0 +1,140 @@
+{
+ "chapters": {
+  "ch12": {
+   "file": "audio/ch12.mp3",
+   "v": "a5de64d6",
+   "key": "6b88c566310c",
+   "dur": 1314.77,
+   "secs": [
+    [
+     "endocrine-basics",
+     49.96
+    ],
+    [
+     "acute-response",
+     174.88
+    ],
+    [
+     "signalling-pathways",
+     475.57
+    ],
+    [
+     "insulin",
+     755.0
+    ],
+    [
+     "myokines",
+     823.83
+    ],
+    [
+     "practical-implications",
+     957.64
+    ]
+   ],
+   "figs": [
+    [
+     661.0,
+     716.54
+    ]
+   ]
+  },
+  "bm01": {
+   "file": "audio/bm01.mp3",
+   "v": "af298161",
+   "key": "e53c90fef2ad",
+   "dur": 1526.09,
+   "secs": [
+    [
+     "hierarchy",
+     40.77
+    ],
+    [
+     "sports-science",
+     249.22
+    ],
+    [
+     "surrogates",
+     391.42
+    ],
+    [
+     "numbers",
+     540.3
+    ],
+    [
+     "training-status",
+     791.65
+    ],
+    [
+     "grading",
+     945.22
+    ],
+    [
+     "checklist",
+     1082.23
+    ],
+    [
+     "likely-wrong",
+     1177.94
+    ]
+   ],
+   "figs": []
+  },
+  "ch45": {
+   "file": "audio/ch45.mp3",
+   "v": "17dc7f92",
+   "key": "0460af769cad",
+   "dur": 1638.94,
+   "secs": [
+    [
+     "what-an-isometric-is",
+     56.99
+    ],
+    [
+     "why-runners-care",
+     222.13
+    ],
+    [
+     "tendon-and-economy",
+     389.49
+    ],
+    [
+     "angle-and-intent",
+     635.35
+    ],
+    [
+     "pain-and-the-honest-caveat",
+     898.42
+    ],
+    [
+     "top-isometrics",
+     989.45
+    ],
+    [
+     "programming",
+     1208.78
+    ]
+   ],
+   "figs": [
+    [
+     122.49,
+     161.85
+    ],
+    [
+     719.91,
+     760.61
+    ],
+    [
+     1023.44,
+     1064.09
+    ],
+    [
+     1066.29,
+     1103.8
+    ]
+   ]
+  }
+ },
+ "voice": "af_heart",
+ "lang": "en-us",
+ "model": "Kokoro-82M"
+}

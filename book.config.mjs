@@ -119,6 +119,8 @@ export const chapters = [
     kw:['iliotibial band','ITB syndrome','ITBS','lateral knee pain','runner knee','hip drop','gluteus medius','compression theory','cadence','tensor fasciae latae','Renne','Noble test'] },
   { id:'ch44', part:'p6', ch:44, title:'Indoor Cycling — The Workout Library', sub:'Every turbo session, what it changes, and the plan it belongs in',
     kw:['indoor cycling','turbo trainer','Zwift','sweet spot','over-unders','FTP','SST','30/15','threshold intervals','torque intervals','cadence','trainer plan','smart trainer','TSS'] },
+  { id:'ch45', part:'p6', ch:45, title:'Isometrics for Runners', sub:'Holding still to run better: tendon stiffness, angle-specific strength, and the holds worth doing',
+    kw:['isometric','isometrics','static hold','overcoming isometric','yielding isometric','tendon stiffness','running economy','soleus','calf hold','Spanish squat','wall sit','split squat hold','Copenhagen plank','angle specificity','Achilles','patellar tendon'] },
 
   // ---- BACK MATTER
   { id:'bm01', part:'bm', ch:null, title:'How to Read the Evidence', sub:'Study design, effect size, and why most headlines mislead',

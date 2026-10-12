@@ -13,7 +13,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23B4332E'/%3E%3Cpath d='M9 22V10h3.4l3.6 7 3.6-7H23v12h-3v-6.6l-2.6 5h-2.8l-2.6-5V22z' fill='%23FBF8F3'/%3E%3C/svg%3E">
 <script>(function(){try{var t=localStorage.getItem('sot-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
-<body class="">
+<body class="" data-chapter="ch04">
 <a class="skip" href="#main">Skip to content</a>
 <div class="progress" id="progress"></div>
 <header class="topbar">
@@ -106,6 +106,7 @@
       <li><a href="../chapters/ch42-rehabilitation-and-return-to-running.html"><span class="n">42</span><span class="t">Rehabilitation &amp; Return to Running</span></a></li>
       <li><a href="../chapters/ch43-case-study-iliotibial-band-syndrome.html"><span class="n">43</span><span class="t">Case Study — Iliotibial Band Syndrome</span></a></li>
       <li><a href="../chapters/ch44-indoor-cycling-the-workout-library.html"><span class="n">44</span><span class="t">Indoor Cycling — The Workout Library</span></a></li>
+      <li><a href="../chapters/ch45-isometrics-for-runners.html"><span class="n">45</span><span class="t">Isometrics for Runners</span></a></li>
     </ul>
   </div>
   <div class="nav-part" data-hue="slate">
@@ -131,12 +132,13 @@
       </div>
     </div>
     <div class="opener__lede"><p class="lede dropcap">Freeze a muscle fibre at the instant it is producing maximum force and, under an electron microscope, almost nothing is moving. Two sets of protein filaments are overlapping, locked together at thousands of points along their length, each contact point cycling through a tiny mechanical ratchet a few dozen times a second. There is no single "contraction switch." There is a repeating four-step cycle, powered one molecule of fuel at a time, multiplied across billions of contacts simultaneously. Understand that cycle and two curves that fall directly out of it, and you understand why a muscle that moves a huge load in one position can barely move a light one in another, and why it is strongest doing the one thing you'd least expect: resisting being stretched.</p></div>
+    
   </div>
 </header>
 <div class="wrap">
 <div class="minitoc">
   <h4>In this chapter</h4>
-  <ol><li value="1"><a href="#sarcomere-anatomy">The Sarcomere: Muscle's Repeating Unit</a></li><li value="2"><a href="#excitation-contraction-coupling">From Decision to Calcium: Excitation&amp;ndash;Contraction Coupling</a></li><li value="3"><a href="#cross-bridge-cycle">The Cross-Bridge Cycle: Four Steps, One Fuel</a></li><li value="4"><a href="#length-tension">The Length&amp;ndash;Tension Relationship</a></li><li value="5"><a href="#force-velocity">The Force&amp;ndash;Velocity Relationship</a></li><li value="6"><a href="#putting-together">Putting the Two Curves Together</a></li></ol>
+  <ol><li value="1"><a href="#sarcomere-anatomy">The Sarcomere: Muscle's Repeating Unit</a></li><li value="2"><a href="#excitation-contraction-coupling">From Decision to Calcium: Excitation–Contraction Coupling</a></li><li value="3"><a href="#cross-bridge-cycle">The Cross-Bridge Cycle: Four Steps, One Fuel</a></li><li value="4"><a href="#length-tension">The Length–Tension Relationship</a></li><li value="5"><a href="#force-velocity">The Force–Velocity Relationship</a></li><li value="6"><a href="#putting-together">Putting the Two Curves Together</a></li></ol>
 </div>
 
 
@@ -148,7 +150,7 @@
 
 <p>The boundary of each sarcomere is a dense protein disc called the <strong>Z-disc</strong>, which anchors the thin filaments at both ends. Under a microscope the overlap pattern creates visible bands, and the names of those bands are used constantly in muscle physiology, so they are worth fixing once: the <strong>A band</strong> is the dark zone spanning the full length of the thick filaments; the <strong>I band</strong> is the lighter zone either side, where only thin filaments are present; the <strong>H zone</strong> is a narrower pale strip in the very centre of the A band, where thick filaments exist but no thin filament reaches; and the <strong>M-line</strong> is a thin structural line running through the dead centre of the H zone, cross-linking neighbouring thick filaments and keeping the whole lattice aligned. One more protein ties the structure together mechanically rather than contractively: <strong>titin</strong>, a single giant molecule that runs from the Z-disc to the M-line, acting as a molecular spring that keeps the thick filament centred and provides passive tension when the sarcomere is stretched beyond the point where actin and myosin overlap at all.</p>
 
-<figure class="fig">
+<figure data-fig="0" class="fig">
   <div class="fig__frame">
     <svg viewBox="0 0 640 260" role="img" aria-label="Diagram of one sarcomere from Z-disc to Z-disc, labelling the A band, I band, H zone, M-line, thick and thin filaments, and titin">
       <text class="svg-title" x="8" y="16">ONE SARCOMERE, Z-DISC TO Z-DISC</text>
@@ -184,7 +186,7 @@
 
 <p>This picture is the basis of the <strong>sliding-filament theory</strong>, established independently by Andrew Huxley and Hugh Huxley's research groups in 1954: the filaments themselves do not shorten. A sarcomere shortens because the thin filaments are pulled further in between the thick ones, so the Z-discs are drawn closer together while the A band, the thick filament's own fixed length, stays exactly the same width throughout. Everything this chapter covers happens at, or because of, this sliding.</p>
 
-<div class="widget" data-widget="sarcomere">
+<div data-fig="1" class="widget" data-widget="sarcomere">
   <div class="widget__head"><h4>The sliding sarcomere</h4><span class="tag">Interactive</span></div>
   <div class="widget__note">Drag the length and activation sliders to watch the A band hold steady while the I band and H zone open and close, and to see how much actin&ndash;myosin overlap is available for cross-bridges to form at each length.</div>
 </div>
@@ -270,7 +272,7 @@
 
 <p>Push shortening velocity to zero and beyond &mdash; into active lengthening, an <strong>eccentric</strong> contraction, where the muscle is activated but being forced to lengthen by an external load &mdash; and something different happens. Rather than falling further, force rises above the isometric maximum. The mechanism is still debated in detail, but the leading explanation involves titin: during forced lengthening, titin appears to engage and stiffen, bearing load passively in a way that adds to, rather than competes with, active cross-bridge force. In isolated animal muscle fibres under tightly controlled conditions, eccentric force can reach roughly 1.5&ndash;1.8 times the isometric maximum. In living humans performing whole-joint movements, the gap is far more modest and inconsistent &mdash; commonly in the region of 10&ndash;40% above isometric or concentric values, with substantial variation between joints, velocities and individuals, and some people showing little or no eccentric advantage at all <span class="grade grade--c">C</span>.</p>
 
-<figure class="fig">
+<figure data-fig="2" class="fig">
   <div class="fig__frame">
     <svg viewBox="0 0 640 280" role="img" aria-label="Force-velocity curve showing force falling as shortening velocity rises, isometric force at zero velocity, and eccentric force exceeding isometric on the lengthening side" >
       <text class="svg-title" x="8" y="16">FORCE VERSUS VELOCITY &mdash; ONE CURVE, THREE ZONES</text>
@@ -293,7 +295,7 @@
   <figcaption><b>Fig 4.2</b> Fewer cross-bridges stay attached at high sliding speed, which is the mechanical reason force falls as shortening speed rises &mdash; and the reason forcibly lengthening an active muscle produces more force than holding it still.</figcaption>
 </figure>
 
-<div class="widget" data-widget="force-velocity">
+<div data-fig="3" class="widget" data-widget="force-velocity">
   <div class="widget__head"><h4>Force, velocity and power</h4><span class="tag">Interactive</span></div>
   <div class="widget__note">Compare force&ndash;velocity and power&ndash;velocity profiles across athlete types, and see where a given training method sits on the curve. Modelled on the classic Hill-type force&ndash;velocity relationship.</div>
 </div>
@@ -364,5 +366,7 @@
 <script src="../assets/figures.js"></script>
 <script src="../assets/cycling.js"></script>
 <script src="../assets/widgets.js"></script>
+<script src="../assets/audio-data.js"></script>
+<script src="../assets/audio.js"></script>
 </body>
 </html>

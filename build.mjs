@@ -16,9 +16,18 @@ import { book, parts, chapters, partOf, slugOf } from './book.config.mjs';
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const OUT_CH = join(ROOT, 'chapters');
 const CONTENT = join(ROOT, 'content');
+const AUDIO_MANIFEST = join(ROOT, 'audio', 'manifest.json');
+
+// audiobook: written by scripts/tts.py; absent until audio has been generated
+const audio = existsSync(AUDIO_MANIFEST) ? JSON.parse(await readFile(AUDIO_MANIFEST, 'utf8')).chapters || {} : {};
+const fmtMin = (sec) => (sec >= 3600
+  ? `${Math.floor(sec / 3600)} h ${Math.round((sec % 3600) / 60)} min`
+  : `${Math.max(1, Math.round(sec / 60))} min`);
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const stripTags = (s) => String(s).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+// plain text of a heading; entities decoded so esc() doesn't double-escape them ("&amp;mdash;")
+const ENT = { mdash: '—', ndash: '–', nbsp: ' ', amp: '&', rsquo: '’', lsquo: '‘', ldquo: '“', rdquo: '”', times: '×', hellip: '…', middot: '·', rarr: '→' };
+const stripTags = (s) => String(s).replace(/<[^>]*>/g, '').replace(/&([a-z]+);/g, (m, n) => ENT[n] ?? m).replace(/\s+/g, ' ').trim();
 
 const ICON = {
   key:   '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>',
@@ -31,6 +40,7 @@ const ICON = {
   paper: '<svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5z"/><path d="M15 3v4h4M9 12h6M9 16h6"/></svg>',
   search:'<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg>',
   menu:  '<svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>',
+  listen:'<svg viewBox="0 0 24 24"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4.5" height="7" rx="1.5"/><rect x="16.5" y="14" width="4.5" height="7" rx="1.5"/></svg>',
   sun:   '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>',
 };
 
@@ -99,7 +109,7 @@ function page({ titleTag, hue, depth, currentId, body, bodyClass = '' }) {
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23B4332E'/%3E%3Cpath d='M9 22V10h3.4l3.6 7 3.6-7H23v12h-3v-6.6l-2.6 5h-2.8l-2.6-5V22z' fill='%23FBF8F3'/%3E%3C/svg%3E">
 <script>(function(){try{var t=localStorage.getItem('sot-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
-<body class="${bodyClass}">
+<body class="${bodyClass}"${currentId ? ` data-chapter="${currentId}"` : ''}>
 <a class="skip" href="#main">Skip to content</a>
 <div class="progress" id="progress"></div>
 <header class="topbar">
@@ -123,6 +133,8 @@ ${searchDialog()}
 <script src="${up}assets/figures.js"></script>
 <script src="${up}assets/cycling.js"></script>
 <script src="${up}assets/widgets.js"></script>
+<script src="${up}assets/audio-data.js"></script>
+<script src="${up}assets/audio.js"></script>
 </body>
 </html>
 `;
@@ -182,6 +194,15 @@ function chapterPage(c, idx, frag) {
   const prev = chapters[idx - 1];
   const next = chapters[idx + 1];
 
+  // narration-only text lives in <template class="narrate"> beside each figure;
+  // scripts/narrate.mjs reads it, the published page does not need it
+  frag = frag.replace(/\s*<template class="narrate">[\s\S]*?<\/template>/g, '');
+  // number figures and widgets in document order (same order as narrate.mjs),
+  // so the player can jump to each one's spoken explanation
+  let figN = 0;
+  frag = frag.replace(/<figure class="fig([" ])|<div class="widget([" ])/g,
+    (m) => m.replace(/^<(figure|div)/, (t) => `${t} data-fig="${figN++}"`));
+
   // lift the first .lede paragraph into the opener
   let lede = '';
   frag = frag.replace(/<p class="lede[^"]*">[\s\S]*?<\/p>/, (m) => { lede = m; return ''; });
@@ -204,6 +225,10 @@ function chapterPage(c, idx, frag) {
       </div>
     </div>
     <div class="opener__lede">${lede}</div>
+    ${audio[c.id] ? `<div class="listen" data-listen="${c.id}">
+      <button class="btn" type="button" data-listen-play>${ICON.listen}<span>Listen to this chapter</span></button>
+      <span class="listen__meta">${fmtMin(audio[c.id].dur)} · narrated</span>
+    </div>` : ''}
   </div>
 </header>
 <div class="wrap">
@@ -236,7 +261,7 @@ function indexPage(tocByChapter) {
     <div><h3>${esc(p.title)}</h3><p>${esc(p.blurb)}</p></div>
   </div>
   <ol>
-${list.map((c) => `    <li><a href="chapters/${slugOf(c)}.html"><span class="n">${c.ch ?? '·'}</span><span class="t">${esc(c.title)}</span><span class="s">${esc(c.sub)}</span></a></li>`).join('\n')}
+${list.map((c) => `    <li><a href="chapters/${slugOf(c)}.html"><span class="n">${c.ch ?? '·'}</span><span class="t">${esc(c.title)}${audio[c.id] ? ` <span class="dur" data-dur="${c.id}">${ICON.listen}${fmtMin(audio[c.id].dur)}</span>` : ''}</span><span class="s">${esc(c.sub)}</span></a></li>`).join('\n')}
   </ol>
 </section>`;
   }).join('\n');
@@ -274,7 +299,8 @@ ${list.map((c) => `    <li><a href="chapters/${slugOf(c)}.html"><span class="n">
       <span class="tag">Evidence-graded</span>
     </div>
     <p style="margin-top:1.6rem"><a class="btn" href="chapters/${slugOf(chapters[0])}.html">Start reading →</a>
-    <button class="btn btn--ghost" type="button" data-search-open style="margin-left:.5rem">Search the book</button></p>
+    <button class="btn btn--ghost" type="button" data-search-open style="margin-left:.5rem">Search the book</button>
+    ${Object.keys(audio).length ? `<button class="btn btn--ghost" type="button" data-listen-book style="margin-left:.5rem">${ICON.listen}<span>Listen · ${fmtMin(Object.values(audio).reduce((a, x) => a + x.dur, 0))}</span></button>` : ''}</p>
   </div>
 </div>
 
@@ -316,6 +342,22 @@ function searchIndex(tocByChapter) {
   }));
 }
 
+/* ---------- audiobook playlist for assets/audio.js ---------- */
+// Book-ordered: file, duration, section starts (with titles) and figure spans.
+function audioData(tocByChapter) {
+  const list = chapters.filter((c) => audio[c.id]).map((c) => {
+    const a = audio[c.id];
+    const titles = Object.fromEntries((tocByChapter[c.id] || []).map((t) => [t.id, t.title]));
+    return {
+      id: c.id, n: c.ch ?? null, t: c.title, u: `chapters/${slugOf(c)}.html`,
+      f: `${a.file}?v=${a.v}`, d: a.dur,
+      s: a.secs.map(([id, t]) => [id, t, titles[id] || '']),
+      g: a.figs,
+    };
+  });
+  return `/* generated by build.mjs from audio/manifest.json — do not edit */\nwindow.SOT_AUDIO = ${JSON.stringify({ book: book.title, author: book.author, chapters: list })};\n`;
+}
+
 /* ---------- main ---------- */
 const stub = (c) => `<section class="sec" id="pending"><h2>In preparation</h2>
 <p class="lede">This chapter is not written yet. Add <code>content/${c.id}.html</code> and re-run <code>node build.mjs</code>.</p></section>`;
@@ -341,6 +383,7 @@ async function main() {
 
   await writeFile(join(ROOT, 'index.html'), indexPage(tocByChapter), 'utf8');
   await writeFile(join(ROOT, 'assets', 'search-index.json'), JSON.stringify(searchIndex(tocByChapter)), 'utf8');
+  await writeFile(join(ROOT, 'assets', 'audio-data.js'), audioData(tocByChapter), 'utf8');
 
   const done = chapters.length - stubs;
   console.log(`built ${written} chapter pages + index.html`);
