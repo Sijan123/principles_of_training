@@ -132,6 +132,351 @@
      1103.8
     ]
    ]
+  },
+  "bm02": {
+   "file": "audio/bm02.mp3",
+   "v": "216599cb",
+   "key": "6dfc8c98927c",
+   "dur": 3095.49,
+   "secs": [
+    [
+     "gl-a",
+     60.26
+    ],
+    [
+     "gl-b",
+     314.66
+    ],
+    [
+     "gl-c",
+     496.14
+    ],
+    [
+     "gl-d",
+     731.16
+    ],
+    [
+     "gl-e",
+     851.35
+    ],
+    [
+     "gl-f",
+     1001.24
+    ],
+    [
+     "gl-g",
+     1155.09
+    ],
+    [
+     "gl-h",
+     1295.68
+    ],
+    [
+     "gl-i",
+     1500.08
+    ],
+    [
+     "gl-jk",
+     1617.6
+    ],
+    [
+     "gl-l",
+     1652.35
+    ],
+    [
+     "gl-m",
+     1802.13
+    ],
+    [
+     "gl-n",
+     1974.52
+    ],
+    [
+     "gl-o",
+     2033.46
+    ],
+    [
+     "gl-p",
+     2118.55
+    ],
+    [
+     "gl-qr",
+     2319.7
+    ],
+    [
+     "gl-s",
+     2464.21
+    ],
+    [
+     "gl-t",
+     2725.57
+    ],
+    [
+     "gl-uv",
+     2885.08
+    ],
+    [
+     "gl-wz",
+     2966.63
+    ]
+   ],
+   "figs": []
+  },
+  "ch01": {
+   "file": "audio/ch01.mp3",
+   "v": "985481de",
+   "key": "b45b3f194050",
+   "dur": 1407.79,
+   "secs": [
+    [
+     "levels",
+     45.74
+    ],
+    [
+     "tissues",
+     181.88
+    ],
+    [
+     "homeostasis",
+     322.3
+    ],
+    [
+     "timescales",
+     557.86
+    ],
+    [
+     "language",
+     802.76
+    ],
+    [
+     "one-act",
+     955.33
+    ],
+    [
+     "misreading",
+     1252.6
+    ]
+   ],
+   "figs": [
+    [
+     69.01,
+     123.83
+    ],
+    [
+     578.84,
+     628.84
+    ],
+    [
+     902.36,
+     952.53
+    ]
+   ]
+  },
+  "ch02": {
+   "file": "audio/ch02.mp3",
+   "v": "b4c267f7",
+   "key": "4a209e49893d",
+   "dur": 1819.86,
+   "secs": [
+    [
+     "bone-is-alive",
+     49.58
+    ],
+    [
+     "joint-types",
+     308.33
+    ],
+    [
+     "levers-and-moment-arms",
+     571.61
+    ],
+    [
+     "why-this-changes-training",
+     919.12
+    ],
+    [
+     "loading-bone",
+     1126.08
+    ],
+    [
+     "osteoporosis-and-stress-fracture",
+     1471.66
+    ]
+   ],
+   "figs": [
+    [
+     230.49,
+     282.25
+    ]
+   ]
+  },
+  "ch03": {
+   "file": "audio/ch03.mp3",
+   "v": "9b4c9020",
+   "key": "c2691f9eac01",
+   "dur": 1512.42,
+   "secs": [
+    [
+     "nested-tube",
+     55.39
+    ],
+    [
+     "fascicle-arrangement",
+     217.62
+    ],
+    [
+     "pcsa",
+     441.6
+    ],
+    [
+     "motor-and-spring",
+     661.7
+    ],
+    [
+     "architecture-and-training",
+     814.37
+    ],
+    [
+     "reading-shape",
+     1123.34
+    ]
+   ],
+   "figs": [
+    [
+     287.81,
+     335.34
+    ],
+    [
+     1302.82,
+     1352.97
+    ]
+   ]
+  },
+  "ch04": {
+   "file": "audio/ch04.mp3",
+   "v": "ac7b11bd",
+   "key": "e1edf6e05fb1",
+   "dur": 1709.87,
+   "secs": [
+    [
+     "sarcomere-anatomy",
+     61.78
+    ],
+    [
+     "excitation-contraction-coupling",
+     347.93
+    ],
+    [
+     "cross-bridge-cycle",
+     508.05
+    ],
+    [
+     "length-tension",
+     830.54
+    ],
+    [
+     "force-velocity",
+     1038.05
+    ],
+    [
+     "putting-together",
+     1433.66
+    ]
+   ],
+   "figs": [
+    [
+     214.62,
+     262.58
+    ],
+    [
+     297.21,
+     345.13
+    ],
+    [
+     1208.63,
+     1258.72
+    ],
+    [
+     1260.92,
+     1315.76
+    ]
+   ]
+  },
+  "ch05": {
+   "file": "audio/ch05.mp3",
+   "v": "72fe9696",
+   "key": "12a8c3642410",
+   "dur": 1388.89,
+   "secs": [
+    [
+     "motor-unit-basics",
+     58.91
+    ],
+    [
+     "three-fibre-types",
+     191.55
+    ],
+    [
+     "size-principle",
+     328.15
+    ],
+    [
+     "rate-coding",
+     640.58
+    ],
+    [
+     "composition-varies",
+     701.68
+    ],
+    [
+     "programming-implications",
+     1028.29
+    ]
+   ],
+   "figs": [
+    [
+     473.01,
+     525.76
+    ]
+   ]
+  },
+  "ch06": {
+   "file": "audio/ch06.mp3",
+   "v": "2af3abb2",
+   "key": "78b163d1db68",
+   "dur": 1288.41,
+   "secs": [
+    [
+     "intention-to-movement",
+     56.94
+    ],
+    [
+     "proprioception",
+     207.34
+    ],
+    [
+     "stretch-shortening-cycle",
+     408.81
+    ],
+    [
+     "neural-adaptations",
+     631.27
+    ],
+    [
+     "skill-specificity",
+     839.98
+    ],
+    [
+     "central-fatigue",
+     992.52
+    ]
+   ],
+   "figs": [
+    [
+     329.17,
+     377.1
+    ]
+   ]
   }
  },
  "voice": "af_heart",
