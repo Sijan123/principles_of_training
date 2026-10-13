@@ -477,6 +477,1744 @@
      377.1
     ]
    ]
+  },
+  "ch07": {
+   "file": "audio/ch07.mp3",
+   "v": "7eb94217",
+   "key": "0bc46d7a94b6",
+   "dur": 1401.43,
+   "secs": [
+    [
+     "atp-currency",
+     52.83
+    ],
+    [
+     "phosphagen",
+     204.41
+    ],
+    [
+     "glycolysis",
+     324.78
+    ],
+    [
+     "oxidative",
+     575.19
+    ],
+    [
+     "overlap",
+     661.2
+    ],
+    [
+     "lactate-curve-section",
+     911.54
+    ],
+    [
+     "worked-800",
+     1031.81
+    ],
+    [
+     "training-testing",
+     1165.67
+    ]
+   ],
+   "figs": [
+    [
+     717.45,
+     770.95
+    ],
+    [
+     773.15,
+     827.44
+    ],
+    [
+     971.1,
+     1029.01
+    ]
+   ]
+  },
+  "ch08": {
+   "file": "audio/ch08.mp3",
+   "v": "ef8102d0",
+   "key": "f70f1f446305",
+   "dur": 1384.79,
+   "secs": [
+    [
+     "what-mitochondrion-does",
+     43.52
+    ],
+    [
+     "content-and-quality",
+     180.83
+    ],
+    [
+     "fuel-selection",
+     413.29
+    ],
+    [
+     "glycogen-sparing",
+     625.07
+    ],
+    [
+     "capillarisation",
+     700.08
+    ],
+    [
+     "worked-cyclist",
+     796.04
+    ],
+    [
+     "how-to-train",
+     936.52
+    ]
+   ],
+   "figs": [
+    [
+     510.37,
+     566.73
+    ],
+    [
+     568.93,
+     622.27
+    ]
+   ]
+  },
+  "ch09": {
+   "file": "audio/ch09.mp3",
+   "v": "d8a9da1d",
+   "key": "189e149da09f",
+   "dur": 1329.06,
+   "secs": [
+    [
+     "cardiac-cycle",
+     48.96
+    ],
+    [
+     "fick-equation",
+     180.01
+    ],
+    [
+     "stroke-volume-trainable",
+     348.78
+    ],
+    [
+     "bp-redistribution",
+     797.44
+    ],
+    [
+     "athletes-heart",
+     886.61
+    ],
+    [
+     "heart-rate",
+     1100.07
+    ]
+   ],
+   "figs": [
+    [
+     283.38,
+     345.98
+    ]
+   ]
+  },
+  "ch10": {
+   "file": "audio/ch10.mp3",
+   "v": "2278bcac",
+   "key": "b693b7a1633b",
+   "dur": 1533.49,
+   "secs": [
+    [
+     "mechanics",
+     50.8
+    ],
+    [
+     "gas-exchange",
+     252.52
+    ],
+    [
+     "oxygen-transport",
+     498.18
+    ],
+    [
+     "ventilatory-thresholds",
+     607.18
+    ],
+    [
+     "lung-limits",
+     898.89
+    ],
+    [
+     "breathing-practices",
+     1169.27
+    ]
+   ],
+   "figs": [
+    [
+     445.44,
+     495.38
+    ]
+   ]
+  },
+  "ch11": {
+   "file": "audio/ch11.mp3",
+   "v": "ddc3d7c2",
+   "key": "001950323618",
+   "dur": 1413.46,
+   "secs": [
+    [
+     "blood-as-tissue",
+     42.9
+    ],
+    [
+     "plasma-expansion",
+     147.05
+    ],
+    [
+     "haemoglobin-mass",
+     315.2
+    ],
+    [
+     "thermoregulation",
+     537.88
+    ],
+    [
+     "cardiovascular-drift",
+     697.68
+    ],
+    [
+     "heat-acclimation",
+     789.67
+    ]
+   ],
+   "figs": [
+    [
+     1063.92,
+     1123.2
+    ]
+   ]
+  },
+  "ch13": {
+   "file": "audio/ch13.mp3",
+   "v": "7e81ef3b",
+   "key": "60bcb52792cd",
+   "dur": 2102.55,
+   "secs": [
+    [
+     "overload",
+     65.01
+    ],
+    [
+     "specificity",
+     438.65
+    ],
+    [
+     "fitness-fatigue",
+     720.26
+    ],
+    [
+     "individuality",
+     1061.62
+    ],
+    [
+     "reversibility",
+     1309.81
+    ],
+    [
+     "dose-response",
+     1734.52
+    ],
+    [
+     "minimum-maximum",
+     1863.53
+    ]
+   ],
+   "figs": [
+    [
+     299.53,
+     350.51
+    ],
+    [
+     821.19,
+     867.54
+    ]
+   ]
+  },
+  "ch14": {
+   "file": "audio/ch14.mp3",
+   "v": "28b97477",
+   "key": "68387f321bba",
+   "dur": 2274.78,
+   "secs": [
+    [
+     "three-numbers",
+     64.22
+    ],
+    [
+     "thresholds",
+     292.66
+    ],
+    [
+     "distribution",
+     719.77
+    ],
+    [
+     "sessions",
+     1104.09
+    ],
+    [
+     "vdot",
+     1443.35
+    ],
+    [
+     "durability",
+     1764.72
+    ],
+    [
+     "building-the-week",
+     1941.89
+    ]
+   ],
+   "figs": [
+    [
+     425.68,
+     475.05
+    ],
+    [
+     550.06,
+     606.56
+    ],
+    [
+     608.76,
+     664.35
+    ],
+    [
+     833.09,
+     885.48
+    ],
+    [
+     1386.77,
+     1440.55
+    ]
+   ]
+  },
+  "ch15": {
+   "file": "audio/ch15.mp3",
+   "v": "275a793d",
+   "key": "a62ec3e4ac14",
+   "dur": 1747.56,
+   "secs": [
+    [
+     "definitions",
+     56.96
+    ],
+    [
+     "two-mechanisms",
+     272.76
+    ],
+    [
+     "time-at-vo2max",
+     402.97
+    ],
+    [
+     "worked",
+     752.57
+    ],
+    [
+     "epoc",
+     979.96
+    ],
+    [
+     "programming",
+     1120.01
+    ],
+    [
+     "errors",
+     1364.57
+    ],
+    [
+     "place",
+     1551.96
+    ]
+   ],
+   "figs": [
+    [
+     518.05,
+     574.33
+    ],
+    [
+     922.63,
+     977.16
+    ]
+   ]
+  },
+  "ch16": {
+   "file": "audio/ch16.mp3",
+   "v": "44ef5a8a",
+   "key": "f232cad13b07",
+   "dur": 1913.39,
+   "secs": [
+    [
+     "skill-not-size",
+     48.32
+    ],
+    [
+     "what-determines-force",
+     257.32
+    ],
+    [
+     "load-specificity",
+     399.86
+    ],
+    [
+     "rfd",
+     593.77
+    ],
+    [
+     "dose-evidence",
+     819.36
+    ],
+    [
+     "programming",
+     1058.2
+    ],
+    [
+     "minimum-dose",
+     1590.31
+    ]
+   ],
+   "figs": [
+    [
+     152.5,
+     202.84
+    ],
+    [
+     760.22,
+     816.56
+    ]
+   ]
+  },
+  "ch17": {
+   "file": "audio/ch17.mp3",
+   "v": "80340ed6",
+   "key": "da2fc2fba0f9",
+   "dur": 1764.98,
+   "secs": [
+    [
+     "what-grows",
+     50.75
+    ],
+    [
+     "tension",
+     271.45
+    ],
+    [
+     "load-effort",
+     496.37
+    ],
+    [
+     "volume",
+     753.16
+    ],
+    [
+     "failure",
+     1090.2
+    ],
+    [
+     "other-variables",
+     1247.95
+    ],
+    [
+     "how-fast",
+     1477.66
+    ]
+   ],
+   "figs": [
+    [
+     171.01,
+     221.01
+    ],
+    [
+     668.44,
+     707.65
+    ],
+    [
+     793.22,
+     848.49
+    ]
+   ]
+  },
+  "ch18": {
+   "file": "audio/ch18.mp3",
+   "v": "79e10a06",
+   "key": "56c55edbc3f4",
+   "dur": 1723.77,
+   "secs": [
+    [
+     "power-equation",
+     47.34
+    ],
+    [
+     "stretch-shortening-cycle",
+     292.27
+    ],
+    [
+     "force-velocity-profiling",
+     494.45
+    ],
+    [
+     "plyometrics-progression",
+     841.56
+    ],
+    [
+     "sprint-mechanics",
+     1153.1
+    ],
+    [
+     "training-power",
+     1291.17
+    ],
+    [
+     "programming-power",
+     1476.82
+    ]
+   ],
+   "figs": [
+    [
+     142.37,
+     192.15
+    ],
+    [
+     194.35,
+     237.48
+    ]
+   ]
+  },
+  "ch19": {
+   "file": "audio/ch19.mp3",
+   "v": "06b2b31f",
+   "key": "75c9fae16e56",
+   "dur": 1785.01,
+   "secs": [
+    [
+     "flexibility-mobility-stability",
+     49.86
+    ],
+    [
+     "static-stretching-and-performance",
+     281.39
+    ],
+    [
+     "tendon-structure-and-adaptation",
+     446.48
+    ],
+    [
+     "protocols-that-work",
+     668.06
+    ],
+    [
+     "bone-and-mechanostat",
+     1033.05
+    ],
+    [
+     "cartilage-and-ligament",
+     1236.49
+    ],
+    [
+     "collagen-and-vitamin-c",
+     1410.68
+    ]
+   ],
+   "figs": [
+    [
+     507.01,
+     553.38
+    ],
+    [
+     1357.4,
+     1407.88
+    ]
+   ]
+  },
+  "ch20": {
+   "file": "audio/ch20.mp3",
+   "v": "8601e62c",
+   "key": "66c5617aa643",
+   "dur": 1326.62,
+   "secs": [
+    [
+     "the-question",
+     49.79
+    ],
+    [
+     "molecular-mechanism",
+     128.08
+    ],
+    [
+     "what-evidence-shows",
+     377.46
+    ],
+    [
+     "moderators",
+     623.35
+    ],
+    [
+     "practical-rules",
+     771.48
+    ],
+    [
+     "hybrid-athlete",
+     971.2
+    ],
+    [
+     "real-limiter",
+     1068.7
+    ]
+   ],
+   "figs": [
+    [
+     260.79,
+     319.02
+    ],
+    [
+     406.71,
+     449.89
+    ]
+   ]
+  },
+  "ch21": {
+   "file": "audio/ch21.mp3",
+   "v": "29ec207a",
+   "key": "bd2954739098",
+   "dur": 1401.57,
+   "secs": [
+    [
+     "the-hierarchy",
+     40.98
+    ],
+    [
+     "models-and-evidence",
+     145.78
+    ],
+    [
+     "autoregulation",
+     440.48
+    ],
+    [
+     "deloads",
+     610.63
+    ],
+    [
+     "the-taper",
+     715.6
+    ],
+    [
+     "building-a-year",
+     957.96
+    ],
+    [
+     "monitoring",
+     1182.53
+    ]
+   ],
+   "figs": [
+    [
+     95.44,
+     142.98
+    ],
+    [
+     1014.78,
+     1063.11
+    ]
+   ]
+  },
+  "ch22": {
+   "file": "audio/ch22.mp3",
+   "v": "1ed5672d",
+   "key": "63e05f1aa4b7",
+   "dur": 1444.56,
+   "secs": [
+    [
+     "reading-the-atlas",
+     43.89
+    ],
+    [
+     "quadriceps",
+     182.79
+    ],
+    [
+     "hamstrings",
+     270.19
+    ],
+    [
+     "glutes",
+     465.34
+    ],
+    [
+     "adductors",
+     700.34
+    ],
+    [
+     "calves-and-shin",
+     839.72
+    ],
+    [
+     "lower-body-errors",
+     1278.51
+    ]
+   ],
+   "figs": [
+    [
+     530.44,
+     579.07
+    ],
+    [
+     1228.44,
+     1275.71
+    ]
+   ]
+  },
+  "ch23": {
+   "file": "audio/ch23.mp3",
+   "v": "3bfc73d2",
+   "key": "c0b753582597",
+   "dur": 1513.29,
+   "secs": [
+    [
+     "pectoralis-major",
+     59.29
+    ],
+    [
+     "deltoids",
+     289.39
+    ],
+    [
+     "triceps-brachii",
+     530.35
+    ],
+    [
+     "serratus-anterior-scapula",
+     787.42
+    ],
+    [
+     "rotator-cuff",
+     962.17
+    ],
+    [
+     "impingement-and-pressing",
+     1272.14
+    ]
+   ],
+   "figs": [
+    [
+     632.41,
+     682.9
+    ],
+    [
+     1226.28,
+     1269.34
+    ]
+   ]
+  },
+  "ch24": {
+   "file": "audio/ch24.mp3",
+   "v": "6a9e50d8",
+   "key": "b9835a7be5fc",
+   "dur": 1300.12,
+   "secs": [
+    [
+     "latissimus-dorsi",
+     49.05
+    ],
+    [
+     "trapezius-three-jobs",
+     172.93
+    ],
+    [
+     "posterior-deltoid-levator",
+     406.86
+    ],
+    [
+     "biceps-brachialis",
+     500.21
+    ],
+    [
+     "grip-and-forearms",
+     693.91
+    ],
+    [
+     "vertical-vs-horizontal",
+     898.08
+    ]
+   ],
+   "figs": [
+    [
+     201.59,
+     249.93
+    ],
+    [
+     1180.39,
+     1223.64
+    ]
+   ]
+  },
+  "ch25": {
+   "file": "audio/ch25.mp3",
+   "v": "76c6b876",
+   "key": "6403bd2262f1",
+   "dur": 1379.26,
+   "secs": [
+    [
+     "what-the-core-does",
+     57.33
+    ],
+    [
+     "intra-abdominal-pressure-and-bracing",
+     207.6
+    ],
+    [
+     "four-anti-movement-categories",
+     392.22
+    ],
+    [
+     "diaphragm-dual-role",
+     616.86
+    ],
+    [
+     "spinal-loading-and-back-pain",
+     737.48
+    ],
+    [
+     "pelvic-floor",
+     1006.46
+    ]
+   ],
+   "figs": [
+    [
+     313.91,
+     358.53
+    ],
+    [
+     1235.61,
+     1280.57
+    ]
+   ]
+  },
+  "ch26": {
+   "file": "audio/ch26.mp3",
+   "v": "870cb6c7",
+   "key": "16002d376577",
+   "dur": 1492.0,
+   "secs": [
+    [
+     "movement-roles",
+     58.86
+    ],
+    [
+     "emg-limits",
+     210.77
+    ],
+    [
+     "running",
+     523.91
+    ],
+    [
+     "cycling",
+     698.86
+    ],
+    [
+     "swimming-and-rowing",
+     795.95
+    ],
+    [
+     "the-big-lifts",
+     889.59
+    ],
+    [
+     "master-cross-reference",
+     969.99
+    ],
+    [
+     "cross-training-and-gaps",
+     1120.0
+    ]
+   ],
+   "figs": [
+    [
+     561.01,
+     620.69
+    ],
+    [
+     1015.26,
+     1071.18
+    ],
+    [
+     1354.9,
+     1400.08
+    ]
+   ]
+  },
+  "ch27": {
+   "file": "audio/ch27.mp3",
+   "v": "b0837cc4",
+   "key": "0aeeccfe120a",
+   "dur": 1683.89,
+   "secs": [
+    [
+     "the-journey",
+     53.1
+    ],
+    [
+     "carb-ceiling",
+     319.56
+    ],
+    [
+     "protein-fat-digestion",
+     597.8
+    ],
+    [
+     "gastric-emptying",
+     770.48
+    ],
+    [
+     "gi-distress",
+     908.12
+    ],
+    [
+     "gut-training",
+     1037.47
+    ],
+    [
+     "microbiome",
+     1330.77
+    ]
+   ],
+   "figs": [
+    [
+     211.2,
+     260.77
+    ],
+    [
+     538.31,
+     595.0
+    ]
+   ]
+  },
+  "ch28": {
+   "file": "audio/ch28.mp3",
+   "v": "b3acf64a",
+   "key": "b36eba08a5fe",
+   "dur": 1978.93,
+   "secs": [
+    [
+     "the-glycogen-tanks",
+     60.27
+    ],
+    [
+     "bonking-and-the-wall",
+     313.22
+    ],
+    [
+     "daily-targets",
+     506.42
+    ],
+    [
+     "during-exercise",
+     646.59
+    ],
+    [
+     "carb-loading",
+     927.02
+    ],
+    [
+     "train-low",
+     1098.47
+    ],
+    [
+     "food-sources",
+     1495.04
+    ],
+    [
+     "fuel-mix-and-evidence",
+     1719.57
+    ]
+   ],
+   "figs": [
+    [
+     258.35,
+     310.42
+    ],
+    [
+     804.82,
+     855.99
+    ],
+    [
+     1724.38,
+     1782.38
+    ]
+   ]
+  },
+  "ch29": {
+   "file": "audio/ch29.mp3",
+   "v": "a254ca66",
+   "key": "40202904f242",
+   "dur": 1480.37,
+   "secs": [
+    [
+     "mps-and-mpb",
+     56.45
+    ],
+    [
+     "daily-dose",
+     180.79
+    ],
+    [
+     "leucine-threshold",
+     339.61
+    ],
+    [
+     "timing",
+     557.55
+    ],
+    [
+     "protein-quality",
+     687.65
+    ],
+    [
+     "deficit",
+     823.87
+    ],
+    [
+     "endurance-protein",
+     1014.0
+    ],
+    [
+     "food-sources",
+     1133.04
+    ]
+   ],
+   "figs": [
+    [
+     453.8,
+     508.19
+    ],
+    [
+     510.39,
+     554.75
+    ]
+   ]
+  },
+  "ch30": {
+   "file": "audio/ch30.mp3",
+   "v": "94c7a87a",
+   "key": "9381c063d29c",
+   "dur": 1663.11,
+   "secs": [
+    [
+     "fat-as-fuel",
+     56.02
+    ],
+    [
+     "fatmax-and-crossover",
+     212.98
+    ],
+    [
+     "why-it-matters",
+     439.04
+    ],
+    [
+     "essential-fats",
+     697.71
+    ],
+    [
+     "ketogenic-diet",
+     900.76
+    ],
+    [
+     "fat-intake-targets",
+     1141.6
+    ],
+    [
+     "food-sources",
+     1221.74
+    ],
+    [
+     "the-elite-test-case",
+     1399.15
+    ]
+   ],
+   "figs": [
+    [
+     312.64,
+     367.31
+    ]
+   ]
+  },
+  "ch31": {
+   "file": "audio/ch31.mp3",
+   "v": "97b2fa98",
+   "key": "629cbb72be94",
+   "dur": 1652.05,
+   "secs": [
+    [
+     "demand",
+     56.88
+    ],
+    [
+     "iron",
+     188.46
+    ],
+    [
+     "vitamin-d",
+     856.78
+    ],
+    [
+     "calcium",
+     953.95
+    ],
+    [
+     "other-minerals",
+     1043.86
+    ],
+    [
+     "antioxidant-paradox",
+     1152.76
+    ],
+    [
+     "sweat-losses",
+     1276.6
+    ],
+    [
+     "food-atlas",
+     1329.63
+    ]
+   ],
+   "figs": [
+    [
+     503.35,
+     549.59
+    ]
+   ]
+  },
+  "ch32": {
+   "file": "audio/ch32.mp3",
+   "v": "9740fbe7",
+   "key": "c76d20381997",
+   "dur": 2026.0,
+   "secs": [
+    [
+     "fluid-balance",
+     47.64
+    ],
+    [
+     "sweat",
+     215.86
+    ],
+    [
+     "dehydration-and-performance",
+     421.35
+    ],
+    [
+     "hyponatraemia",
+     636.66
+    ],
+    [
+     "measuring-sweat-rate",
+     1014.47
+    ],
+    [
+     "electrolytes-and-cramp",
+     1372.8
+    ],
+    [
+     "hyperhydration",
+     1582.21
+    ],
+    [
+     "practical-plans",
+     1674.96
+    ]
+   ],
+   "figs": [
+    [
+     585.78,
+     633.86
+    ],
+    [
+     1096.99,
+     1152.73
+    ]
+   ]
+  },
+  "ch33": {
+   "file": "audio/ch33.mp3",
+   "v": "37803706",
+   "key": "91f1b621f399",
+   "dur": 1780.59,
+   "secs": [
+    [
+     "hierarchy",
+     48.02
+    ],
+    [
+     "clearly-work",
+     231.25
+    ],
+    [
+     "sodium-bicarbonate",
+     718.47
+    ],
+    [
+     "honest-maybes",
+     958.7
+    ],
+    [
+     "what-doesnt-work",
+     1159.33
+    ],
+    [
+     "contamination",
+     1365.2
+    ],
+    [
+     "checklist",
+     1471.65
+    ]
+   ],
+   "figs": [
+    [
+     157.53,
+     196.86
+    ],
+    [
+     258.8,
+     308.67
+    ]
+   ]
+  },
+  "ch34": {
+   "file": "audio/ch34.mp3",
+   "v": "bbafdb7b",
+   "key": "3fe4ce6a432d",
+   "dur": 1952.4,
+   "secs": [
+    [
+     "build-a-day",
+     46.51
+    ],
+    [
+     "endurance-base-day",
+     205.19
+    ],
+    [
+     "hard-interval-day",
+     347.23
+    ],
+    [
+     "hypertrophy-day",
+     487.49
+    ],
+    [
+     "fat-loss-while-training",
+     639.53
+    ],
+    [
+     "race-day",
+     987.13
+    ],
+    [
+     "energy-availability",
+     1180.99
+    ],
+    [
+     "food-atlas",
+     1533.64
+    ]
+   ],
+   "figs": [
+    [
+     932.65,
+     984.33
+    ],
+    [
+     1260.68,
+     1308.01
+    ]
+   ]
+  },
+  "ch35": {
+   "file": "audio/ch35.mp3",
+   "v": "453cde28",
+   "key": "0a496dc9467a",
+   "dur": 2008.46,
+   "secs": [
+    [
+     "why-test",
+     49.13
+    ],
+    [
+     "aerobic-tests",
+     139.54
+    ],
+    [
+     "critical-power",
+     467.01
+    ],
+    [
+     "strength-power-tests",
+     937.98
+    ],
+    [
+     "readiness",
+     1232.62
+    ],
+    [
+     "dashboard",
+     1583.23
+    ],
+    [
+     "reliability",
+     1717.49
+    ]
+   ],
+   "figs": [
+    [
+     269.75,
+     326.43
+    ],
+    [
+     872.19,
+     935.18
+    ]
+   ]
+  },
+  "ch36": {
+   "file": "audio/ch36.mp3",
+   "v": "70dddd9e",
+   "key": "d0133cef63d4",
+   "dur": 1729.84,
+   "secs": [
+    [
+     "what-fatigue-is",
+     43.71
+    ],
+    [
+     "sleep",
+     201.48
+    ],
+    [
+     "doms",
+     486.82
+    ],
+    [
+     "overreaching-spectrum",
+     630.94
+    ],
+    [
+     "modalities",
+     846.73
+    ],
+    [
+     "nutrition-recovery",
+     1340.47
+    ],
+    [
+     "differential-diagnosis",
+     1416.09
+    ]
+   ],
+   "figs": [
+    [
+     1226.83,
+     1268.15
+    ]
+   ]
+  },
+  "ch37": {
+   "file": "audio/ch37.mp3",
+   "v": "8471f99c",
+   "key": "880e4fe98c69",
+   "dur": 1597.8,
+   "secs": [
+    [
+     "heat-strain",
+     48.75
+    ],
+    [
+     "heat-altitude-link",
+     298.22
+    ],
+    [
+     "altitude",
+     395.28
+    ],
+    [
+     "cold",
+     787.83
+    ],
+    [
+     "bfr",
+     925.97
+    ],
+    [
+     "air-quality",
+     1145.31
+    ],
+    [
+     "travel-jet-lag",
+     1212.19
+    ],
+    [
+     "race-prep",
+     1275.2
+    ]
+   ],
+   "figs": [
+    [
+     199.21,
+     239.65
+    ]
+   ]
+  },
+  "ch38": {
+   "file": "audio/ch38.mp3",
+   "v": "2a37fdad",
+   "key": "c2c9fc1bb8e5",
+   "dur": 1683.61,
+   "secs": [
+    [
+     "responders",
+     44.76
+    ],
+    [
+     "sex-differences",
+     204.17
+    ],
+    [
+     "menstrual-cycle",
+     389.1
+    ],
+    [
+     "youth",
+     812.37
+    ],
+    [
+     "masters",
+     959.42
+    ],
+    [
+     "body-size",
+     1456.57
+    ],
+    [
+     "clinical-populations",
+     1514.72
+    ]
+   ],
+   "figs": [
+    [
+     1156.16,
+     1203.07
+    ]
+   ]
+  },
+  "ch39": {
+   "file": "audio/ch39.mp3",
+   "v": "874c5233",
+   "key": "876a65b0563b",
+   "dur": 1784.65,
+   "secs": [
+    [
+     "mismatch",
+     43.52
+    ],
+    [
+     "not-reduction",
+     165.57
+    ],
+    [
+     "acwr",
+     271.79
+    ],
+    [
+     "rules-of-thumb",
+     486.93
+    ],
+    [
+     "tissue-types",
+     592.63
+    ],
+    [
+     "return-after-layoff",
+     728.6
+    ],
+    [
+     "longevity",
+     1180.26
+    ],
+    [
+     "sixty-years",
+     1576.8
+    ]
+   ],
+   "figs": [
+    [
+     898.19,
+     940.77
+    ]
+   ]
+  },
+  "ch40": {
+   "file": "audio/ch40.mp3",
+   "v": "e7d036af",
+   "key": "9bdc1fd26477",
+   "dur": 1779.64,
+   "secs": [
+    [
+     "what-warmup-does",
+     55.21
+    ],
+    [
+     "ramp",
+     387.23
+    ],
+    [
+     "static-vs-dynamic",
+     560.24
+    ],
+    [
+     "where-static-belongs",
+     826.73
+    ],
+    [
+     "pap",
+     973.54
+    ],
+    [
+     "warmup-ramps",
+     1166.1
+    ],
+    [
+     "foam-rolling",
+     1437.45
+    ],
+    [
+     "cooldown",
+     1572.47
+    ]
+   ],
+   "figs": [
+    [
+     273.4,
+     316.23
+    ],
+    [
+     492.65,
+     532.36
+    ],
+    [
+     912.34,
+     951.84
+    ]
+   ]
+  },
+  "ch41": {
+   "file": "audio/ch41.mp3",
+   "v": "48163e04",
+   "key": "8e61291e4756",
+   "dur": 1613.84,
+   "secs": [
+    [
+     "why-it-works",
+     51.22
+    ],
+    [
+     "tissues",
+     303.46
+    ],
+    [
+     "exercises",
+     419.74
+    ],
+    [
+     "how-heavy",
+     780.06
+    ],
+    [
+     "plyometrics",
+     912.37
+    ],
+    [
+     "fitting-it-in",
+     1041.53
+    ],
+    [
+     "cyclists",
+     1134.0
+    ],
+    [
+     "programme",
+     1371.69
+    ]
+   ],
+   "figs": [
+    [
+     624.68,
+     669.88
+    ],
+    [
+     1284.69,
+     1331.36
+    ]
+   ]
+  },
+  "ch42": {
+   "file": "audio/ch42.mp3",
+   "v": "258976ac",
+   "key": "635134e7e72d",
+   "dur": 2072.66,
+   "secs": [
+    [
+     "principles",
+     65.01
+    ],
+    [
+     "tendinopathy",
+     341.52
+    ],
+    [
+     "bone-stress",
+     1120.54
+    ],
+    [
+     "muscle-strains",
+     1379.59
+    ],
+    [
+     "plantar-heel-tibial",
+     1549.79
+    ],
+    [
+     "return-to-run",
+     1717.78
+    ],
+    [
+     "prevention",
+     1875.4
+    ]
+   ],
+   "figs": [
+    [
+     562.48,
+     612.25
+    ],
+    [
+     695.0,
+     736.08
+    ]
+   ]
+  },
+  "ch43": {
+   "file": "audio/ch43.mp3",
+   "v": "b3dbbc99",
+   "key": "a5218a05a57e",
+   "dur": 2409.06,
+   "secs": [
+    [
+     "what-it-is",
+     58.78
+    ],
+    [
+     "mechanism",
+     252.7
+    ],
+    [
+     "why-running",
+     515.11
+    ],
+    [
+     "risk",
+     652.46
+    ],
+    [
+     "diagnosis",
+     970.52
+    ],
+    [
+     "what-doesnt-work",
+     1238.73
+    ],
+    [
+     "rehab",
+     1464.23
+    ],
+    [
+     "return",
+     1988.54
+    ],
+    [
+     "prevention",
+     2194.14
+    ]
+   ],
+   "figs": [
+    [
+     144.88,
+     189.34
+    ],
+    [
+     598.4,
+     649.66
+    ],
+    [
+     1683.79,
+     1727.39
+    ]
+   ]
+  },
+  "ch44": {
+   "file": "audio/ch44.mp3",
+   "v": "4d3e2222",
+   "key": "9c8d62f020d5",
+   "dur": 1519.23,
+   "secs": [
+    [
+     "why-indoors",
+     47.32
+    ],
+    [
+     "setup",
+     218.77
+    ],
+    [
+     "library",
+     440.6
+    ],
+    [
+     "adaptation-map",
+     712.67
+    ],
+    [
+     "plans",
+     890.42
+    ],
+    [
+     "errors",
+     1134.25
+    ],
+    [
+     "cross-training",
+     1292.8
+    ]
+   ],
+   "figs": [
+    [
+     322.31,
+     369.86
+    ],
+    [
+     460.13,
+     509.0
+    ]
+   ]
   }
  },
  "voice": "af_heart",
